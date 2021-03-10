@@ -3,12 +3,12 @@
 # (1)"dataShell_AMP_sim.R" : simulating the infusion and non-infusion visits 
 #                            according to the AMP protocol specification with 
 #                            different adherences and sample sizes.
-# (2)"AMP_ConcentrationSim_hvtn104IVFinal.ctl": simulating concentrations of AMP 
+# (2)"AMP_ConcentrationSim_hvtn104IVFinal.ctl": NONMEM control file simulating concentrations of AMP 
 #                                               participants by using the master
 #                                               popPK model, which is the model 
 #                                               that best describes the HVTN104
 #                                               data.
-# (3)"AMP_estimate_PK_parameters": estimating popPK model parameters based on the 
+# (3)"AMP_estimate_PK_parameters": NONMEM control file estimating popPK model parameters based on the 
 #                                  simulated concentration of AMP participants.
 #
 ##################################################################################
